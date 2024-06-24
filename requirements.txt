@@ -1,0 +1,5 @@
+ffmpeg
+whisper
+torch
+pyannote.audio
+scikit-learn
