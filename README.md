@@ -32,3 +32,26 @@ from audio_converter import convert_to_wav
 # Convert an MP3 file to WAV format
 convert_to_wav('path/to/input.mp3', 'path/to/output.wav')
 
+
+
+## Extracting Audio Segment
+python
+Copiar código
+from audio_extractor import extract_audio_segment
+
+# Extract a segment from an audio file
+extract_audio_segment('path/to/input.wav', start_time=120, end_time=720, output_path='path/to/output_segment.wav')
+Transcribing Audio
+python
+Copiar código
+from transcriber import AudioTranscriber
+
+## Create an instance of the AudioTranscriber
+transcriber = AudioTranscriber('path/to/audio.wav', model_size='tiny', num_speakers=1)
+
+# Transcribe the audio file
+segments = transcriber.transcribe()
+
+# Save the transcription to a text file
+transcriber.save_transcription(segments, 'path/to/transcription.txt')
+
