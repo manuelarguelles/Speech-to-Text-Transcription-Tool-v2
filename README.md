@@ -54,12 +54,3 @@ segments = transcriber.transcribe()
 
 # Save the transcription to a text file
 transcriber.save_transcription(segments, 'path/to/transcription.txt')
-
-Contributing
-We welcome contributions from the community. Please fork the repository and submit pull requests.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For any questions or suggestions, please contact manuelarguelles@example.com.
