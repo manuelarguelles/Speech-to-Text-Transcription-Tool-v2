@@ -35,15 +35,11 @@ convert_to_wav('path/to/input.mp3', 'path/to/output.wav')
 
 
 ## Extracting Audio Segment
-python
-Copiar código
 from audio_extractor import extract_audio_segment
 
 # Extract a segment from an audio file
 extract_audio_segment('path/to/input.wav', start_time=120, end_time=720, output_path='path/to/output_segment.wav')
-Transcribing Audio
-python
-Copiar código
+#Transcribing Audio
 from transcriber import AudioTranscriber
 
 ## Create an instance of the AudioTranscriber
