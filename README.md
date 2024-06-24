@@ -1,5 +1,4 @@
-# Speech-to-Text-Transcription-Tool-v2
-A robust and efficient tool for transcribing audio files into text using advanced machine learning models. This repository includes functionality for converting audio formats, extracting specific segments, and identifying speakers.
+# Speech-to-Text Transcription Tool v2
 
 ## Description
 This repository provides a comprehensive tool for converting audio files to text. It leverages state-of-the-art machine learning models to deliver accurate and efficient transcriptions. Key features include:
@@ -30,4 +29,6 @@ This repository provides a comprehensive tool for converting audio files to text
 ```python
 from audio_converter import convert_to_wav
 
+# Convert an MP3 file to WAV format
 convert_to_wav('path/to/input.mp3', 'path/to/output.wav')
+
